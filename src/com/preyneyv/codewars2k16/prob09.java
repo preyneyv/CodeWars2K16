@@ -23,13 +23,14 @@ public class prob09 {
 
                 int total_cubes = l * w * h;
                 int face_cubes = 0;
+
                 face_cubes += 8; // corners
 
                 face_cubes += 4 * (l-2); // edges
                 face_cubes += 4 * (w-2);
                 face_cubes += 4 * (h-2);
 
-                face_cubes += 2 * (l-2) * (w-2);
+                face_cubes += 2 * (l-2) * (w-2); // faces
                 face_cubes += 2 * (w-2) * (h-2);
                 face_cubes += 2 * (h-2) * (l-2);
 
