@@ -28,6 +28,7 @@ public class prob06 {
                 ob[i] = temp(sensor[0],gradient,yIntercept) / 8f;
             }
 
+
             for (float temp : ob) {
                 BigDecimal dec = new BigDecimal(temp);
                 System.out.println(dec);
